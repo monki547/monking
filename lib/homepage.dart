@@ -75,11 +75,40 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(
                       height: 40,
                     ),
-                    Text(
-                      "... ... 420",
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: color.AppColor.homePageBackground,
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 20),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Text(
+                            "...",
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: color.AppColor.homePageBackground,
+                            ),
+                          ),
+                          Text(
+                            "...",
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: color.AppColor.homePageBackground,
+                            ),
+                          ),
+                          Text(
+                            "...",
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: color.AppColor.homePageBackground,
+                            ),
+                          ),
+                          Text(
+                            "420",
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: color.AppColor.homePageBackground,
+                            ),
+                          ),
+                        ],
                       ),
                     )
                   ],

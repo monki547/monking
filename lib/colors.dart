@@ -5,6 +5,7 @@ class AppColor {
   static Color homePageTitle = const Color(0xFF111111);
   static Color homePageSubtitle = const Color(0xFFFAFAFA);
   static Color homePageBox = const Color(0xFF1BA37A);
+  static Color homePageBoxKecil = const Color(0xFFFFFFFF);
   
   
 }
